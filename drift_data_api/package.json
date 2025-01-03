@@ -5,7 +5,8 @@
   "main": "dist/drift_trading.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node drift_trading.ts",
+    "start:funding": "ts-node drift_trading.ts",
+    "start:contracts": "ts-node contracts.ts",
     "dev": "ts-node-dev --respawn drift_trading.ts"
   },
   "devDependencies": {

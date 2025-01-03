@@ -1,0 +1,17 @@
+{
+  "name": "drift-funding",
+  "version": "1.0.0",
+  "description": "Drift Protocol funding rate monitor",
+  "main": "dist/drift_trading.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node drift_trading.ts",
+    "dev": "ts-node-dev --respawn drift_trading.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+} 
